@@ -107,4 +107,85 @@ body {
       grid-template-columns: repeat(1, 1fr);
     }
   }
+  /* Existing styles */
+
+/* New Styles for Right Sidebar */
+.sidebar {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
   
+  .popular-posts {
+    margin-bottom: 20px;
+  }
+  
+  .popular-posts h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .popular-posts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .popular-posts li {
+    margin-bottom: 10px;
+  }
+  
+  .popular-posts a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .author-bio {
+    margin-bottom: 20px;
+  }
+  
+  .author-bio h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .social-media-links {
+    margin-bottom: 20px;
+  }
+  
+  .social-media-links h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .social-media-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-media-links li {
+    margin-bottom: 10px;
+  }
+  
+  .social-media-links a {
+    text-decoration: none;
+    color: #333;
+  }
+/* Existing styles */
+
+/* New Styles for Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+  }
+    
