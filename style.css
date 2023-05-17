@@ -40,6 +40,10 @@ body {
     text-align: center;
     padding: 20px;
   }
+  img{
+    height:250px;
+    width:300px;
+  }
   
   .search-bar input[type=text] {
     width: 50%;
@@ -188,4 +192,21 @@ body {
     color: #fff;
     margin-right: 10px;
   }
-    
+   /* Existing styles */
+
+/* New Styles for Hover Effects */
+a:hover,
+button:hover,
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.post-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+ 
