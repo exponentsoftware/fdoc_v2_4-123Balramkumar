@@ -77,3 +77,34 @@ body {
     }
   }
   
+  /* Existing styles */
+
+/* New Styles for Grid Layout */
+.content {
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .post-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
